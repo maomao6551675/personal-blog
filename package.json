@@ -1,0 +1,32 @@
+{
+  "name": "personal-website",
+  "private": true,
+  "version": "0.0.0",
+  "author": "ositowang",
+  "keywords": [
+    "react",
+    "personal-blog"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@nextui-org/react": "1.0.0-beta.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.1.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.28.1",
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "husky": "^8.0.2",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
+}
